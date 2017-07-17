@@ -30,7 +30,7 @@ if (Bought == 'Hyrule Sword'){
 
 if (Bought == 'Potion'){
     console.log(" ")
-    console.log("you spent $300.")
+    console.log("you spent $300.")2
     bank2 = bank - 300;
     console.log("You have $" + bank2 + " left.");
     console.log("You now own a Potion.")
