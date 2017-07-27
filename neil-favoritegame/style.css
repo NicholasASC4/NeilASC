@@ -1,0 +1,24 @@
+.jumbotron{
+     background-image: url("https://images2.pixlis.com/background-image-vertical-lines-and-stripes-seamless-tileable-black-red-22romq.png");
+}
+
+.container{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-image:  url("http://samequizy.pl/wp-content/uploads/2016/07/filing_images_7d939630f463-7.jpeg");
+}
+
+.rko img{
+    
+    border-left: 20px;
+    width: 30%;
+    padding: 10px;
+}
+
+button{
+    color: red;
+}
