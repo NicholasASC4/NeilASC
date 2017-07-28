@@ -1,0 +1,32 @@
+.PLAY h1{
+    font-size: 50px;
+    color: white;
+}
+
+body{
+    /* background-image: url("https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif"); */
+    background-image: url("https://media.giphy.com/media/FHCHRtwAZgGFq/giphy.gif");
+    /* background-position: center; */
+    background-size: cover;
+}
+
+body .PLAY button{
+    font-size: 50px;
+    background-color: lightgray;
+    padding: 14px 40px;
+    border-radius: 50%;
+}
+
+.PLAY{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.video iframe{
+    display: inline-block;
+    text-align: center;
+}
+
