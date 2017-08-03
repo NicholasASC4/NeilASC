@@ -12,6 +12,11 @@ var py1 = 230
 var py2 = 230
 
 
+function collisiondetection(ax,ay,ah,aw,bx,by,bh,bw){
+return(ax<bx+bw&&ax+aw>bx&&ay<by+bh&&ah+ay>bx);
+}
+
+
 
 function setup(){
     createCanvas(600,600);
@@ -39,4 +44,10 @@ function draw(){
         xspeed = -xspeed;
     }
     x = x + xspeed
+
+    if (collisiondetection(x,y,50,50,px1,py1,20,120)){
+        xspeed = -xspeed;
+    }
+    x = x + xspeed;
 }
+
