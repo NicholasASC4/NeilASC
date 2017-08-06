@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+ <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script src="app.js"></script>
+
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-image: url('https://68.media.tumblr.com/8adfaae4d61983e531df0774823d4561/tumblr_o41h2b0n841ufwx64o1_500.gif');background-size:cover;background-position:center;">
+<div class="container">
+
+<div class="jumbotron" style="text-align:center; Border: 5px ridge blue;background-color: indigo;">
+    <div class="animated infinite pulse">
+    <h1 style="color: white;">MusicManiac</h1> 
+    <p style="color: white;">Find an artist's upcoming event, closest to you!</p> 
+    </div>
+  </div>
+
+<div class="row" style="background-color: indigo;">
+        <div class="col-md-6" style="text-align: center;"><img src="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fkeyshiakaoir.com%2Fwp-content%2Fuploads%2F2013%2F02%2Fbeyonce-performs-at-2013-superbowl-xlvii-in-new-orleans-0109.jpg" style="width: 500px; padding-top:10px;"></div>
+        <div class="col-md-6" style="text-align: center;"><img src="https://slack-imgs.com/?c=1&url=http%3A%2F%2Ftheboombox.com%2Ffiles%2F2017%2F02%2FJay-Z-to-Headline-UKs-V-Festival.jpg" style="width: 500px; padding-top:10px;"></div>
+
+</div>
+
+
+    <div class="row" style="background-color: indigo; Padding-bottom: 60px;">
+        <div class="col-md-3"></div>
+        <div class="col-md-6" style="text-align: center;"> <h3 style="color:white;">Search Artist Name:</h3>
+    <input type="text" id="userInput" style="width: 400px;padding: 20px"></input>
+<button id="submit" onclick="test()" style="padding: 20px">Submit</button></div>
+        <div class="col-md-3"></div>
+   
+</div>
+<!-- add this line for function to write into -->
+<p id="demo"></p>  
+</div>
+
+<script type="text/javascript">
+function test(){
+    var userInput = document.getElementById("userInput").value;
+
+    $('#submit').click(function(){
+         if(userInput === "Drake"){
+                window.location = "page2.html";
+         }
+        if(userInput === "Chance the Rapper"){
+            window.location = "page3.html";
+        }
+        if(userInput === "DJ Khaled"){
+            window.location = "page4.html";
+        }
+    })
+  
+}
+
+
+
+</script>
+    
+</body>
+</html>
